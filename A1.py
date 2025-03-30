@@ -7,7 +7,7 @@ def index():
 
 @app.route('/info')
 def info():
-    return '<h1>This is the info page</h1>'
+    return '<h1>This is the First info page</h1>'
 
 if __name__ == '__main__':
     app.run() 
